@@ -37,4 +37,7 @@ img {
 
 
 
-/*TODO: Create a Flexbox to create a responsive layout. Use the property display: flex;/ 
+/* https://www.freecodecamp.org/news/an-animated-guide-to-flexbox-d280cf6afc35/ */
+.conatiner {
+  display: flex;
+}

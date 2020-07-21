@@ -22,6 +22,7 @@ h1 {
 
 /*TODO: Add styling rules for the text and images on your website.*/
 text {
+  color: SlateGrey;
 }
 
 img {

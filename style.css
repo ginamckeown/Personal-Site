@@ -37,6 +37,7 @@ ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
+  overflow: hidden;
   background-color: #333;
 }
 
@@ -55,19 +56,6 @@ li a {
 /* Change the link color to #111 (black) on hover */
 li a:hover {
   background-color: #111;
-}
-
-.nav-bar .links {
-  display: flex;
-}
-
-.nav-bar {
-  position: fixed;
-}
-
-li {
-  
-}
 
 
 /* https://www.freecodecamp.org/news/an-animated-guide-to-flexbox-d280cf6afc35/ */

@@ -18,6 +18,10 @@ p {
   margin: 20px 20px 20px 20px;
 }
 
+img {
+  width: 15%
+}
+
 
 /*TODO: Create a new style rule by the class attribute and style the header section(s) of your website. */
 
@@ -49,7 +53,7 @@ img {
 }
 
 ul {
-  
+  text-align: center;
 }
 
 li {
@@ -70,6 +74,8 @@ li a {
   text-decoration: none;
   font-size: 20px;
   text-align: right;
+  padding-left: 80px;
+  padding-right: 80px;
 }
 
 /* Change the link color to #111 (black) on hover */

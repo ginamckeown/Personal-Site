@@ -36,6 +36,7 @@ img {
 .navbar {
   padding-right: 100px;
   margin-top: 10px;
+  
 }
 
 ul {
@@ -50,7 +51,9 @@ li {
 }
 
 #logo {
-  
+  padding: 14px 16px;
+  float: left;
+  font-size: 20px;
 }
 
 li a {

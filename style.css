@@ -35,6 +35,7 @@ img {
 /*TODO: Style the Nav Bar by selecting the u1, li, and li a elements*/
 .navbar {
   padding-right: 100px;
+  padding-left: 100px;
   margin-top: 10px;
   
 }
@@ -53,7 +54,7 @@ li {
 #logo {
   padding: 14px 16px;
   float: left;
-  font-size: 20px;
+  font-size: 30px;
 }
 
 li a {

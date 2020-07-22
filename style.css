@@ -1,7 +1,7 @@
 
 /*TODO: Add a background color or image to your website*/
 body {
- background-color: #FFFFFF; 
+ background-color: #acd6e6; 
 }
 
 
@@ -9,8 +9,13 @@ h1 {
   color: black;
 }
 
+h3 {
+  font-size: 23px;
+}
+
 p {
   display: block;
+  font-size: 18px;
 }
 
 .container {
@@ -20,6 +25,10 @@ p {
 
 img {
   width: 15%
+}
+
+.box {
+  border-radius: 5x; 
 }
 
 

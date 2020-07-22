@@ -1,3 +1,4 @@
+
 /*TODO: Add a background color or image to your website*/
 body {
  background-color: #FFFFFF; 
@@ -9,6 +10,10 @@ h1 {
 }
 
 p {
+  display: block;
+}
+
+container {
   display: block;
 }
 
@@ -78,3 +83,6 @@ li a:hover {
 #conatainer {
   display: flex;
 }
+
+/* Blog */
+

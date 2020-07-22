@@ -13,8 +13,9 @@ p {
   display: block;
 }
 
-container {
+.container {
   display: block;
+  margin: 20px 20px 20px 20px;
 }
 
 
@@ -43,25 +44,23 @@ img {
 
 /*TODO: Style the Nav Bar by selecting the u1, li, and li a elements*/
 .navbar {
-  margin: 10px 10px 10px 10px;
   display: flex;
   display: block;
 }
 
 ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
+  
 }
 
 li {
-  float: right;
+  display: inline;
 }
 
 #logo {
-  padding: 14px 16px;
   float: left;
-  font-size: 30px;
+  font-size: 20px;
+  text-align: center;
+  
 }
 
 li a {
@@ -70,6 +69,7 @@ li a {
   padding: 14px 16px;
   text-decoration: none;
   font-size: 20px;
+  text-align: right;
 }
 
 /* Change the link color to #111 (black) on hover */

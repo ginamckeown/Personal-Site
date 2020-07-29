@@ -1,9 +1,7 @@
-
 /* main tags */
 body {
- background-color: white; 
+  background-color: white;
 }
-
 
 h1 {
   color: black;
@@ -19,7 +17,7 @@ p {
 }
 
 img {
-  width: 15%
+  width: 15%;
 }
 
 ul {
@@ -43,8 +41,8 @@ li a {
 
 li a:hover {
   color: grey;
+}
 
-  
 /* New classes */
 .container {
   display: block;
@@ -52,7 +50,7 @@ li a:hover {
 }
 
 .box {
-  border-radius: 5x; 
+  border-radius: 5x;
 }
 
 .pretty_container {
@@ -85,3 +83,20 @@ li a:hover {
 }
 
 /* Blog */
+.column {
+  float: left;
+  width: 33.33%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}

@@ -1,6 +1,8 @@
 /* main tags */
 body {
   background-color: #c1d3de;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
 h1 {
@@ -11,6 +13,10 @@ h2{
   margin: 15px;
   font-size: 35px;
   text-shadow: 2px 2px #FFFFFF;
+}
+
+h4 {
+  font-size: 20px;
 }
 
 h3 {
@@ -56,6 +62,8 @@ nav {
   background-color: white;
   padding: 10px 20px 10px 20px;
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-left: 0px;
+  margin-right: 0px;
 }
 
 /* New classes */

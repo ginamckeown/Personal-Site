@@ -8,12 +8,11 @@ main {
   margin-right: 20px;
 }
 
-
 h1 {
   color: black;
 }
 
-h2{
+h2 {
   margin: 15px;
   font-size: 35px;
   text-shadow: 2px 2px #FFFFFF;
@@ -39,12 +38,10 @@ img {
   border: 5px solid #cbd0d4;
   border-radius: 8px;
   width: 95%;
-  
 }
 
 li {
   display: inline;
-  
 }
 
 li a {
@@ -135,3 +132,10 @@ nav {
   text-align: left;
   list-style-type: circle;
 }
+
+/* Portfolio */
+#coronavirus-tracker img {
+  width: 30%;
+  margin-right: 30px;
+}
+

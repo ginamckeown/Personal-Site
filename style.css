@@ -3,6 +3,12 @@ body {
   background-color: #c1d3de;
 }
 
+main {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+
 h1 {
   color: black;
 }
@@ -70,10 +76,9 @@ nav {
   border-radius: 5x;
 }
 
-.pretty_container {
+.main_container {
   border-radius: 5px;
   background-color: lightgrey;
-  margin: 10px;
   padding: 15px 15px 15px 15px;
   position: relative;
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -98,6 +103,16 @@ nav {
 }
 
 /* Blog */
+
+.pretty_container {
+  border-radius: 5px;
+  background-color: lightgrey;
+  margin: 10px;
+  padding: 15px 15px 15px 15px;
+  position: relative;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
 .column {
   float: left;
   width: 28%;
